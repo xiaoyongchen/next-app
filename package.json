@@ -5,6 +5,9 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
+    "build:sit": "node scripts/build.js sit",
+    "build:uat": "node scripts/build.js uat",
+    "build:prod": "node scripts/build.js prod",
     "start": "next start",
     "lint": "biome check",
     "format": "biome format --write"
