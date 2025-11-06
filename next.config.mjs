@@ -9,6 +9,7 @@ const nextConfig = {
     // Will only be available on the server side
     // dbPassword: process.env.DB_PASSWORD,
   },
+  output: 'standalone', // 优化生产构建
 };
 
 export default nextConfig;
