@@ -23,10 +23,5 @@
     "@biomejs/biome": "2.2.0",
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4"
-  },
-  "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=8.0.0",
-    "yarn": ">=4.0.0"
   }
 }
