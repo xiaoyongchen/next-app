@@ -10,6 +10,14 @@ const nextConfig = {
     // dbPassword: process.env.DB_PASSWORD,
   },
   output: 'standalone', // 优化生产构建
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: `https://nest-project-2coe.onrender.com/:path*`,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

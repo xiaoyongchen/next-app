@@ -39,3 +39,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ```bash
 npm install -g vercel
 ```
+
+## 状态管理 npm i jotai
+
+## 请求库 npm i @tanstack/query-core
